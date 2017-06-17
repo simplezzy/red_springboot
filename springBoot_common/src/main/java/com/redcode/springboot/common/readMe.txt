@@ -56,8 +56,11 @@
      			<version>1.5.4.RELEASE</version>
      		</dependency>
   b.默认路径中编写.html
-    #spring.thymeleaf.prefix=classpath:/templates/
-    #spring.thymeleaf.suffix=.html
+       #spring.thymeleaf.prefix=classpath:/templates/
+       #spring.thymeleaf.suffix=.html
+    resources文件夹下，static文件夹下存放静态文件，比如css、js、html和图片等
+    templates下存放html文件，controller默认访问该文件夹下的html文件。
+
   c.配置文件中关闭thymeleaf缓存
     spring.thymeleaf.cache=false
   d.controller 测试
