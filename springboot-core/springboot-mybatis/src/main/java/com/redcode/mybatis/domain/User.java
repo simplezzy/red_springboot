@@ -1,4 +1,4 @@
-package com.redcode.mybatis.bean;
+package com.redcode.mybatis.domain;
 
 import java.io.Serializable;
 import java.util.Date;

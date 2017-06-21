@@ -10,7 +10,6 @@
   <name>core-parent</name>
   <url>http://maven.apache.org</url>
   <modules>
-
     <module>springboot-mybatis</module>
   </modules>
 
@@ -23,8 +22,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
-
 
   <dependencies>
     <!--支持 Web 应用开发，包含 Tomcat 和 spring-mvc。 -->
