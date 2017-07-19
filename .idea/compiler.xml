@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-exception" />
         <module name="springboot-jdbctemplate" />
+        <module name="springboot-jpa" />
         <module name="springboot-mock" />
         <module name="springboot-properties" />
         <module name="springboot-swagger" />
@@ -16,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="springboot-exception" target="1.8" />
       <module name="springboot-jdbctemplate" target="1.8" />
+      <module name="springboot-jpa" target="1.8" />
       <module name="springboot-mock" target="1.8" />
       <module name="springboot-properties" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
