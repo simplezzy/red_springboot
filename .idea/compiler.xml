@@ -12,6 +12,7 @@
         <module name="springboot-mock" />
         <module name="springboot-mongodb" />
         <module name="springboot-properties" />
+        <module name="springboot-retry" />
         <module name="springboot-swagger" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="springboot-mock" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-properties" target="1.8" />
+      <module name="springboot-retry" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
       <module name="springboot-web" target="1.8" />
     </bytecodeTargetLevel>
