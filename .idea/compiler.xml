@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-aop" />
         <module name="springboot-exception" />
         <module name="springboot-jdbctemplate" />
         <module name="springboot-jpa" />
@@ -17,6 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-aop" target="1.8" />
       <module name="springboot-exception" target="1.8" />
       <module name="springboot-jdbctemplate" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
