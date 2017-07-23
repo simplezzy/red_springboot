@@ -25,7 +25,7 @@ public class RetryServiceImpl implements RetryService {
     public String retry() {
         System.out.println("retry test demo");
         mock_prod_code++;//生产环境此处应该为调用第三方接口，判断接口的返回code
-        if(mock_prod_code == Constant.MOCK_END){
+        if(mock_prod_code == Constant.MOCK_END) {
             return String.valueOf(mock_prod_code);
         }
         RetryException retryException = new RetryException("206", "连接超时");
