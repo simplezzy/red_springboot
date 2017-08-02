@@ -1,7 +1,7 @@
 package com.redcode.demo.repository;
 
 import com.redcode.demo.BaseTest;
-import com.redcode.demo.entiry.User;
+import com.redcode.demo.entity.User;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

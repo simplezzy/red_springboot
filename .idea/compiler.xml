@@ -8,24 +8,28 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-aop" />
         <module name="springboot-exception" />
+        <module name="springboot-exportfile" />
         <module name="springboot-jdbctemplate" />
         <module name="springboot-jpa" />
         <module name="springboot-mock" />
         <module name="springboot-mongodb" />
         <module name="springboot-properties" />
         <module name="springboot-retry" />
+        <module name="springboot-schedule" />
         <module name="springboot-swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-exception" target="1.8" />
+      <module name="springboot-exportfile" target="1.8" />
       <module name="springboot-jdbctemplate" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
       <module name="springboot-mock" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-properties" target="1.8" />
       <module name="springboot-retry" target="1.8" />
+      <module name="springboot-schedule" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
       <module name="springboot-web" target="1.8" />
     </bytecodeTargetLevel>

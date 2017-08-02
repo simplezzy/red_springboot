@@ -1,4 +1,4 @@
-package com.redcode.demo.entiry;
+package com.redcode.demo.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
