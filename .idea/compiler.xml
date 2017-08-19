@@ -11,6 +11,7 @@
         <module name="springboot-exportfile" />
         <module name="springboot-jdbctemplate" />
         <module name="springboot-jpa" />
+        <module name="springboot-kafka" />
         <module name="springboot-mock" />
         <module name="springboot-mongodb" />
         <module name="springboot-properties" />
@@ -25,6 +26,7 @@
       <module name="springboot-exportfile" target="1.8" />
       <module name="springboot-jdbctemplate" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
+      <module name="springboot-kafka" target="1.8" />
       <module name="springboot-mock" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
       <module name="springboot-properties" target="1.8" />
