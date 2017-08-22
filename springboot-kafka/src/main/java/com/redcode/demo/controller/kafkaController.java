@@ -24,7 +24,7 @@ public class kafkaController {
 
     @RequestMapping("/sendMsg")
     public void sendMsg() throws Exception {
-
         messageSender.sendMessage();
+        System.out.println("messageSender:" + "finish sending");
     }
 }

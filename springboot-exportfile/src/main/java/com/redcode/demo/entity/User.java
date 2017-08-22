@@ -1,5 +1,8 @@
 package com.redcode.demo.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.jeecgframework.poi.excel.annotation.Excel;
 import org.jeecgframework.poi.excel.annotation.ExcelTarget;
 
@@ -9,9 +12,12 @@ import java.io.Serializable;
  * Created by zhiyu.zhou on 2017/7/27.
  */
 @ExcelTarget("user")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class User implements Serializable{
 
-    @Excel(name = "编号", orderNum = "1", isImportField = "id")
+    @Excel(name = "编号", orderNum = "1", width = 20, isImportField = "id")
     private Long id;
 
     @Excel(name = "姓名", orderNum = "2", isImportField = "name")
@@ -22,47 +28,4 @@ public class User implements Serializable{
 
     @Excel(name = "地址", orderNum = "4", isImportField = "address")
     private String address;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public User() {
-        super();
-    }
-
-    public User(Long id, String name, Integer age, String address) {
-        this.id = id;
-        this.name = name;
-        this.age = age;
-        this.address = address;
-    }
 }
