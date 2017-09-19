@@ -26,6 +26,6 @@ public class MessageSender {
             message.setId(System.currentTimeMillis());
             message.setMsg(UUID.randomUUID().toString());
             message.setSendTime(new Date());
-            kafkaTemplate.send("test_topic", "key_test", gson.toJson(message));
+            kafkaTemplate.send("test_new", "key", gson.toJson(message));
     }
 }

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-aop" />
+        <module name="springboot-elasticsearch" />
         <module name="springboot-exception" />
         <module name="springboot-exportfile" />
         <module name="springboot-jdbctemplate" />
@@ -22,6 +23,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-aop" target="1.8" />
+      <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-exception" target="1.8" />
       <module name="springboot-exportfile" target="1.8" />
       <module name="springboot-jdbctemplate" target="1.8" />
