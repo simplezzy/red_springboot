@@ -14,7 +14,10 @@ public class UserRepositoryTest extends BaseTest {
 
     public void saveTest() throws Exception {
         for(int i = 0 ; i < 5; i++) {
-            userRepository.save(new User(1l+ i,"aaaa" + i , 10 + i));
+            User user = new User();
+            user.setAge(10+i);
+            user.setUsername("cat" + i);
+            userRepository.save(user);
         }
     }
 
