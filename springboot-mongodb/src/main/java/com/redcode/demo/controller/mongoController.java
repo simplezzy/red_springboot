@@ -35,7 +35,7 @@ public class mongoController {
 
     @RequestMapping("findByName")
     public User findByName() {
-        return userRepository.findByUsername("redcat");
+        return userRepository.findByAccount("redcat");
     }
 
 }
