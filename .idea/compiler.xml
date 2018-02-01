@@ -10,15 +10,19 @@
         <module name="springboot-elasticsearch" />
         <module name="springboot-exception" />
         <module name="springboot-exportfile" />
+        <module name="springboot-hystrix" />
         <module name="springboot-jdbctemplate" />
         <module name="springboot-jpa" />
         <module name="springboot-kafka" />
         <module name="springboot-mock" />
         <module name="springboot-mongodb" />
+        <module name="springboot-mq" />
         <module name="springboot-properties" />
+        <module name="springboot-redis" />
         <module name="springboot-retry" />
         <module name="springboot-schedule" />
         <module name="springboot-shiro" />
+        <module name="springboot-shiro-redis" />
         <module name="springboot-swagger" />
       </profile>
     </annotationProcessing>
@@ -27,15 +31,19 @@
       <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-exception" target="1.8" />
       <module name="springboot-exportfile" target="1.8" />
+      <module name="springboot-hystrix" target="1.8" />
       <module name="springboot-jdbctemplate" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
       <module name="springboot-mock" target="1.8" />
       <module name="springboot-mongodb" target="1.8" />
+      <module name="springboot-mq" target="1.8" />
       <module name="springboot-properties" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
       <module name="springboot-retry" target="1.8" />
       <module name="springboot-schedule" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
+      <module name="springboot-shiro-redis" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
       <module name="springboot-web" target="1.8" />
     </bytecodeTargetLevel>

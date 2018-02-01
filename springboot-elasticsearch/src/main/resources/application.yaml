@@ -1,0 +1,11 @@
+spring:
+    data:
+        elasticsearch:
+           cluster-name: my-app-test
+           cluster-nodes: localhost:9200
+           repositories:
+                 enabled: true
+           properties:
+                   path:
+                     logs: ./es/log
+                     data: ./es/data

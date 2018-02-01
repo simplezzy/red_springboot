@@ -1,0 +1,7 @@
+spring:
+  # rabbitmq \u7684\u76F8\u5173\u914D\u7F6E
+  rabbitmq:
+    host: localhost:5672
+    password: guest
+    username: guest
+    virtual-host: /
