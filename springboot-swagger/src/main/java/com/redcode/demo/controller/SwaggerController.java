@@ -17,6 +17,4 @@ public class SwaggerController {
     public String swaggerIndex() {
         return "swagger index" + " " + new Date();
     }
-
-
 }

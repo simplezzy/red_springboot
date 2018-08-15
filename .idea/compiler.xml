@@ -20,10 +20,12 @@
         <module name="springboot-properties" />
         <module name="springboot-redis" />
         <module name="springboot-retry" />
+        <module name="springboot-rocketmq" />
         <module name="springboot-schedule" />
         <module name="springboot-shiro" />
         <module name="springboot-shiro-redis" />
         <module name="springboot-swagger" />
+        <module name="springboot_common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,11 +43,13 @@
       <module name="springboot-properties" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-retry" target="1.8" />
+      <module name="springboot-rocketmq" target="1.8" />
       <module name="springboot-schedule" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-shiro-redis" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
       <module name="springboot-web" target="1.8" />
+      <module name="springboot_common" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

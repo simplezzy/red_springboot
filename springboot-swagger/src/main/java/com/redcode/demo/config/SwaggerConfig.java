@@ -32,5 +32,4 @@ public class SwaggerConfig {
                 .contact("zzy")
                 .version("1.0.0").build();
     }
-
 }
